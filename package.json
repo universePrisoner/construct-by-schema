@@ -1,0 +1,19 @@
+{
+  "name": "construct-by-schema",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroWheel/construct-by-schema.git"
+  },
+  "author": "A. Volgin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeroWheel/construct-by-schema/issues"
+  },
+  "homepage": "https://github.com/zeroWheel/construct-by-schema#readme"
+}
