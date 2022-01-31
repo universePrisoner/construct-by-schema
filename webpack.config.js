@@ -7,7 +7,7 @@ module.exports = {
 	devtool: 'eval-source-map',
 	target: 'web',
 
-	entry: path.join(__dirname, './index.tsx'),
+	entry: path.join(__dirname, './src/index.tsx'),
 
 	output: {
 		path: path.join(__dirname, '/dist'),
@@ -39,7 +39,7 @@ module.exports = {
 
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: path.resolve(__dirname, '/src/templates/index.html'),
+			template: path.resolve(__dirname, '/templates/index.html'),
 		}),
 	],
 };
