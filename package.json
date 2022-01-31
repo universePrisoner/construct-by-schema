@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build:watch": "webpack serve --mode development --hot"
+		"build:watch": "webpack serve --mode development --hot",
+		"lint": "eslint ./src/**/*.{ts,tsx}"
 	},
 	"repository": {
 		"type": "git",
@@ -27,8 +28,14 @@
 		"@babel/preset-typescript": "7.15.0",
 		"@types/react": "17.0.16",
 		"@types/react-dom": "17.0.9",
+		"@typescript-eslint/eslint-plugin": "5.10.2",
+		"@typescript-eslint/parser": "5.10.2",
 		"babel-loader": "8.2.2",
 		"css-loader": "6.2.0",
+		"eslint": "8.8.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-config-airbnb-typescript": "16.1.0",
+		"eslint-plugin-react": "7.28.0",
 		"html-webpack-plugin": "5.3.2",
 		"react-hot-loader": "4.13.0",
 		"style-loader": "3.2.1",
